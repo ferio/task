@@ -1,0 +1,13 @@
+﻿<h1>Корректировка</h1>
+<% form_for @task do |form| %>
+  задача:
+  <%= form.text_field :name %><br />
+  описание:<br />
+  <%= form.text_area :description, :rows => 6 %><br />
+  дата:
+  <%= form.date_select :date, :order => [:day, :month, :year], :start_year => 2008, :end_year => 2011 %><br />
+  выполнено:
+  <%=form.text_field:completed %> <br/>
+  <br/>
+  <%= form.submit 'Сохранить изменения' %>
+<% end %>

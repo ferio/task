@@ -1,0 +1,16 @@
+﻿<h1>Задачник</h1>
+<div>
+	<%= link_to 'Новая задача',new_task_path%>
+<div/>
+<br />
+<% @tasks.each do |task| %>
+	<div>
+		<div><strong><%=h task.name %></strong> (<%=h task.date%>)</div>
+		<div><%=h task.description %></div>
+    <strong>is completed:</strong><%=h task.completed %>
+	</div>
+	<div>
+		<%= link_to 'Изменить задачу',edit_task_path(task)%>|<%= link_to 'Удалить задачу',task_path(task),:method=>:delete,:confirm => 'Вы уверены?'  %>
+	</div>
+	<hr />
+<% end %>

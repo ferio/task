@@ -1,0 +1,61 @@
+new
+
+<h1>Новая задача</h1>
+<%form_for @task do |form|%>
+задача:
+<%=form.text_field:name%><br/>
+описание:<br/>
+<%=form.text_area:description, :rows=>6 %><br/>
+дата:
+<%=form.date_select :date, :order => [:day, :month, :year]%, :start_year => 2008, :end_year => 2011%><br/>
+выполнено:
+<%=form.text_field:completed%><br/>
+<br/>
+<%=form.submit 'Добавить' %>
+<% end %>
+
+
+edit
+
+
+<h1>Корректировка</h1>
+<%form_for @task do |form|%>
+задача:
+<%=form.text_field:name%><br/>
+описание:<br/>
+<%=form.text_area:description, :rows=>6 %><br/>
+дата:
+<%=form.date_select :date, :order => [:day, :month, :year]%, :start_year => 2008, :end_year => 2011%><br/>
+выполнено:
+<%=form.text_field:completed%><br/>
+<br/>
+<%=form.submit 'Сохранить изменения' %>
+<% end %>
+
+show
+
+
+<h1><%=@task.name %></h1>
+<%=@task.description %>
+<hr />
+<%=@task.date %>
+<hr />
+
+list
+
+<h1>Задачник</h1>
+<div>
+  <%=link_to 'Новая задача',new_task_path%>
+<div/>
+<br/>
+<% @tasks.each do |task| %>
+<div>
+    <div><strong><%=h task.name %></strong><%=h task.date%></div>
+    <div><%=h task.description %></div>
+    <strong>выполнено:</strong><%=h task.completed %>
+    </div>
+    <div>
+      <%=link_to 'Изменить задачу',edit_task_path(task) %>|<%=link_to 'Удалить задачу',task_path(task),:method =>:delete,:confirm => 'Вы уверены?' %>
+      </div>
+      <hr />
+<% end %>
