@@ -15520,3 +15520,195 @@ Processing TasksController#index (for 127.0.0.1 at 2008-12-11 04:09:51) [GET]
 Rendering tasks/list
   [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
 Completed in 0.04700 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03200 (68%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 04:24:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01600 (20%) | DB: 0.03100 (39%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 04:24:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.015000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.01500 (24%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 04:24:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.01500 (12%) | DB: 0.03100 (24%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 04:25:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.20300 (4 reqs/sec) | Rendering: 0.01600 (7%) | DB: 0.01500 (7%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-11 09:04:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.516000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 2.28100 (0 reqs/sec) | Rendering: 0.57800 (25%) | DB: 0.51600 (22%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 12:08:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.172000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.56300 (1 reqs/sec) | Rendering: 0.17300 (30%) | DB: 0.18700 (33%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 13:53:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.282000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.032000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 1.37500 (0 reqs/sec) | Rendering: 0.51400 (37%) | DB: 0.31400 (22%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 13:54:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"5", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.047000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.125000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 5) [0m
+Rendering tasks/edit
+Completed in 0.70300 (1 reqs/sec) | Rendering: 0.28100 (39%) | DB: 0.17200 (24%) | 200 OK [http://localhost/tasks/5/edit]
+
+
+Processing TasksController#update (for 127.0.0.1 at 2008-12-11 13:54:11) [PUT]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"commit"=>"Сохранить изменения", "_method"=>"put", "action"=>"update", "task"=>{"name"=>"therd", "completed"=>"0", "date(1i)"=>"2008", "date(2i)"=>"12", "date(3i)"=>"10", "description"=>"sdafjsdafkdfjsdafkdmcvn,mcxnv"}, "id"=>"5", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.031000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.016000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 5) [0m
+  [4;35;1mSQL (0.063000)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.140000)[0m   [0;1mUPDATE `tasks` SET `created_at` = '2008-12-10 17:51:21', `date` = '2008-12-10', `description` = 'sdafjsdafkdfjsdafkdmcvn,mcxnv', `updated_at` = '2008-12-11 13:54:12', `name` = 'therd', `completed` = 0 WHERE `id` = 5[0m
+  [4;35;1mSQL (0.078000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 0.95300 (1 reqs/sec) | DB: 0.32800 (34%) | 302 Found [http://localhost/tasks/5]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 13:54:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.34400 (2 reqs/sec) | Rendering: 0.14000 (40%) | DB: 0.01600 (4%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 13:58:55) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.047000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.42200 (2 reqs/sec) | Rendering: 0.09300 (22%) | DB: 0.04700 (11%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-11 13:59:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.047000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.26600 (3 reqs/sec) | Rendering: 0.11000 (41%) | DB: 0.04700 (17%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2008-12-11 13:59:25) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"commit"=>"Добавить", "action"=>"create", "task"=>{"name"=>"новая задача", "completed"=>"", "date(1i)"=>"2008", "date(2i)"=>"12", "date(3i)"=>"11", "description"=>"просто для проверки функционал"}, "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.015000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mBEGIN[0m
+  [4;35;1mTask Create (0.125000)[0m   [0mINSERT INTO `tasks` (`completed`, `name`, `updated_at`, `date`, `description`, `created_at`) VALUES(0, 'новая задача', '2008-12-11 13:59:25', '2008-12-11', 'просто для проверки функционал', '2008-12-11 13:59:25')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 0.32800 (3 reqs/sec) | DB: 0.15600 (47%) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 13:59:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.031000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.09400 (50%) | DB: 0.03100 (16%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-11 13:59:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.15600 (6 reqs/sec) | Rendering: 0.06200 (39%) | DB: 0.01600 (10%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2008-12-11 14:00:33) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"commit"=>"Добавить", "action"=>"create", "task"=>{"name"=>"еще одна задача", "completed"=>"1", "date(1i)"=>"2008", "date(2i)"=>"12", "date(3i)"=>"11", "description"=>"надо сделать что-нибудь хорошее и чисто-светлое...\r\nи проверить,работает чекбокс или нет"}, "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.031000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.047000)[0m   [0mBEGIN[0m
+  [4;36;1mTask Create (0.032000)[0m   [0;1mINSERT INTO `tasks` (`completed`, `name`, `updated_at`, `date`, `description`, `created_at`) VALUES(1, 'еще одна задача', '2008-12-11 14:00:33', '2008-12-11', 'надо сделать что-нибудь хорошее и чисто-светлое...\r\nи проверить,работает чекбокс или нет', '2008-12-11 14:00:33')[0m
+  [4;35;1mSQL (0.031000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 0.43800 (2 reqs/sec) | DB: 0.14100 (32%) | 302 Found [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 14:00:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.04700 (37%) | DB: 0.03100 (24%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 14:01:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.094000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.29700 (3 reqs/sec) | Rendering: 0.06200 (20%) | DB: 0.09400 (31%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-11 14:01:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.15700 (6 reqs/sec) | Rendering: 0.04700 (29%) | DB: 0.01600 (10%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 14:02:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.015000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.031000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.15600 (6 reqs/sec) | Rendering: 0.03200 (20%) | DB: 0.04600 (29%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 14:02:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.063000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.046000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03200 (14%) | DB: 0.10900 (49%) | 200 OK [http://localhost/tasks/11/edit]

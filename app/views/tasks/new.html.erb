@@ -7,7 +7,7 @@
   крайний срок:
   <%= form.date_select :date, :order => [:day, :month, :year], :start_year => 2008, :end_year => 2011 %><br />
   выполнено:
-  <%=form.text_field:completed %> <br/>
+  <%=form.check_box:completed %> <br/>
   <br/>
   <%= form.submit 'Добавить' %>
 <% end %>
