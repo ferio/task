@@ -15712,3 +15712,540 @@ Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 14:02:28) [GET]
   [4;36;1mTask Load (0.046000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
 Rendering tasks/edit
 Completed in 0.21900 (4 reqs/sec) | Rendering: 0.03200 (14%) | DB: 0.10900 (49%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 14:12:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.01600 (17%) | DB: 0.03100 (32%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 14:19:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.031000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.01600 (17%) | DB: 0.04600 (48%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 14:39:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.031000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.09400 (10 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.04700 (50%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 14:39:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.07800 (12 reqs/sec) | Rendering: 0.01500 (19%) | DB: 0.01600 (20%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-11 14:39:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.031000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.10900 (9 reqs/sec) | Rendering: 0.01600 (14%) | DB: 0.03100 (28%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#update (for 127.0.0.1 at 2008-12-11 14:39:46) [PUT]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"commit"=>"Сохранить изменения", "_method"=>"put", "action"=>"update", "task"=>{"name"=>"новая задача", "completed"=>"0", "date(1i)"=>"2008", "date(2i)"=>"12", "date(3i)"=>"11", "description"=>"просто для проверки функционала"}, "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mTask Update (0.031000)[0m   [0;1mUPDATE `tasks` SET `created_at` = '2008-12-11 13:59:25', `date` = '2008-12-11', `description` = 'просто для проверки функционала', `updated_at` = '2008-12-11 14:39:46', `name` = 'новая задача', `completed` = 0 WHERE `id` = 11[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 0.39000 (2 reqs/sec) | DB: 0.06200 (15%) | 302 Found [http://localhost/tasks/11]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-11 14:39:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.01600 (25%) | 200 OK [http://localhost/tasks]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-12-12 03:27:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/posts" with {:method=>:get}):
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/bin/mongrel_rails:19:in `load'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/bin/mongrel_rails:19
+
+Rendering D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:27:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.032000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.047000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTask Load (0.031000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.125000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.75000 (1 reqs/sec) | Rendering: 0.32900 (43%) | DB: 0.23500 (31%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:27:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"10", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.094000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.141000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 10) [0m
+Rendering tasks/edit
+Completed in 0.60900 (1 reqs/sec) | Rendering: 0.09300 (15%) | DB: 0.23500 (38%) | 200 OK [http://localhost/tasks/10/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:38:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTask Load (0.015000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.18700 (5 reqs/sec) | Rendering: 0.03100 (16%) | DB: 0.01500 (8%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:39:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.016000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.01600 (25%) | DB: 0.03100 (49%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:39:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.03100 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:39:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:40:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:41:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.015000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.04600 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (32%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:41:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.01600 (34%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:41:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.14100 (7 reqs/sec) | Rendering: 0.04700 (33%) | DB: 0.01600 (11%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:41:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.01600 (34%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:41:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.015000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (48%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:41:15) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:41:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 03:41:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"10", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 10) [0m
+Rendering tasks/edit
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (51%) | 200 OK [http://localhost/tasks/10/edit]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:41:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (34%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-12 03:41:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:41:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.18800 (5 reqs/sec) | Rendering: 0.14100 (74%) | DB: 0.01500 (7%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-12 03:41:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:42:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.04600 (21 reqs/sec) | Rendering: 0.01500 (32%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-12 03:42:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01600 (34%) | DB: 0.01500 (31%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#create (for 127.0.0.1 at 2008-12-12 03:43:04) [POST]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"commit"=>"Добавить", "action"=>"create", "task"=>{"name"=>"", "completed"=>"0", "date(1i)"=>"2008", "date(2i)"=>"12", "date(3i)"=>"12", "description"=>"slfjdfjjfkdjfkj"}, "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Rendering tasks/new
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (50%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 03:43:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.015000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (48%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2008-12-12 04:35:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/users/login" with {:method=>:get}):
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1441:in `recognize_path'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/routing.rb:1424:in `recognize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:170:in `handle_request'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:115:in `dispatch'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:126:in `dispatch_cgi'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/dispatcher.rb:9:in `dispatch'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:76:in `process'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/rails.rb:74:in `process'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:159:in `process_client'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `each'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:158:in `process_client'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `initialize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `new'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:285:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `initialize'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `new'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel.rb:268:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:128:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/../lib/mongrel/command.rb:212:in `run'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.2-x86-mswin32/bin/mongrel_rails:281
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/bin/mongrel_rails:19:in `load'
+    D:/SOFT/ruby/INSTAN~1.0-W/ruby/bin/mongrel_rails:19
+
+Rendering D:/SOFT/ruby/INSTAN~1.0-W/ruby/lib/ruby/gems/1.8/gems/actionpack-2.0.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 04:35:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.016000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mTask Load (0.016000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.06200 (16 reqs/sec) | Rendering: 0.01500 (24%) | DB: 0.03200 (51%) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT * FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.015000)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `tasks`[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 04:37:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.04700 (21 reqs/sec) | Rendering: 0.01500 (31%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreateUsers (2)
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 04:38:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreateUsers (2)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreateUsers (2)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreateUsers (2)
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+Migrating to CreateUsers (2)
+  [4;36;1mSQL (0.031000)[0m   [0;1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255) DEFAULT NULL, `password` varchar(255) DEFAULT NULL, `created_at` datetime DEFAULT NULL, `updated_at` datetime DEFAULT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.000000)[0m   [0mUPDATE schema_info SET version = 2[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT * FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mdescribe `tasks`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `tasks`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `users`[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 04:46:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-12 04:46:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01600 (51%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 04:47:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01600 (51%) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;35;1mSQL (0.000000)[0m   [0mMysql::Error: Table 'schema_info' already exists: CREATE TABLE `schema_info` (version int(11))[0m
+  [4;36;1mSQL (0.016000)[0m   [0;1mSELECT version FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_info[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_info[0m
+Migrating to Session (3)
+  [4;35;1mSQL (0.000000)[0m   [0mUPDATE schema_info SET version = 3[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT * FROM schema_info[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+  [4;35;1mSQL (0.015000)[0m   [0mdescribe `tasks`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW KEYS FROM `tasks`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW KEYS FROM `users`[0m
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 05:01:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.031000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.35900 (2 reqs/sec) | Rendering: 0.10900 (30%) | DB: 0.03100 (8%) | 200 OK [http://localhost/]
+
+
+Processing TasksController#edit (for 127.0.0.1 at 2008-12-12 05:01:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"edit", "id"=>"11", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.015000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 11) [0m
+Rendering tasks/edit
+Completed in 1.34400 (0 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01500 (1%) | 200 OK [http://localhost/tasks/11/edit]
+
+
+Processing TasksController#destroy (for 127.0.0.1 at 2008-12-12 05:01:17) [DELETE]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"_method"=>"delete", "action"=>"destroy", "id"=>"12", "controller"=>"tasks"}
+  [4;35;1mTask Columns (0.016000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.`id` = 12) [0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mTask Destroy (0.000000)[0m   [0;1m DELETE FROM `tasks`
+ WHERE `id` = 12
+[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed in 0.03100 (32 reqs/sec) | DB: 0.01600 (51%) | 302 Found [http://localhost/tasks/12]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 05:01:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;36;1mTask Load (0.000000)[0m   [0;1mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;35;1mTask Columns (0.000000)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03200 (31 reqs/sec) | Rendering: 0.01600 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks]
+
+
+Processing TasksController#new (for 127.0.0.1 at 2008-12-12 05:01:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"new", "controller"=>"tasks"}
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Rendering tasks/new
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/tasks/new]
+
+
+Processing TasksController#index (for 127.0.0.1 at 2008-12-12 05:01:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--c6d2522073a972e8c65f24232c2bf666c23e6cd5
+  Parameters: {"action"=>"index", "controller"=>"tasks"}
+  [4;35;1mTask Load (0.000000)[0m   [0mSELECT * FROM `tasks` ORDER BY date desc[0m
+Rendering tasks/list
+  [4;36;1mTask Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `tasks`[0m
+Completed in 0.03100 (32 reqs/sec) | Rendering: 0.01500 (48%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
