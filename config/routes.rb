@@ -34,5 +34,6 @@ ActionController::Routing::Routes.draw do |map|
   #map.connect ':controller/:action/:id.:format'
   #map.resources:tasks
     map.root :controller => 'tasks'
+    map.resources :users, :collection=>{:login=>:get, :logout=>:delete}
     map.resources :tasks
 end

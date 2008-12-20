@@ -1,4 +1,17 @@
 ﻿<h1>Задачник</h1>
+
+<% if flash[:notice] %>
+<div>
+	<%= flash[:notice]%>
+</div>
+<% end %>
+
+<% if not @current_user %>
+	<%= link_to 'Войти', login_users_path %>
+<% else %>
+    <%= link_to 'Выйти', logout_users_path, :method => :delete %>
+<% end %>
+
 <div>
 	<%= link_to 'Новая задача',new_task_path%>
 <div/>
