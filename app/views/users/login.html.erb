@@ -1,0 +1,12 @@
+<% if flash[:error] %>
+<div>
+	<%= flash[:error] %>
+</div>
+<% end %>
+<% form_for :user, @user, login_users_path, :html => {:method => :get} do |f| %>
+Логин: <%= f.text_field :login %><br />
+Пароль:  <%= f.text_field :password %><br />
+<%= f.submit 'Войти'%>
+<% end %>
+
+<%= link_to 'Регистрация', new_user_path %>
